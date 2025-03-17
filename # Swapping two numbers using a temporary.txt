@@ -1,0 +1,20 @@
+# Swapping two numbers using a temporary variable
+
+# Input: two numbers
+a = 5
+b = 10
+
+# Print initial values
+print("Before swapping:")
+print("a =", a)
+print("b =", b)
+
+# Swapping the numbers using a temporary variable
+temp = a
+a = b
+b = temp
+
+# Print swapped values
+print("After swapping:")
+print("a =", a)
+print("b =", b)
